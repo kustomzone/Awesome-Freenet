@@ -17,7 +17,7 @@ Your computer becomes part of a global network where apps are unstoppable, inter
 - [About Freenet](#about-freenet)
 - [Freenet Repos](#freenet-source-repos)
 - [Intro Media](#intro-media)
-- [Community Sites](#community-sites)
+- [Community Support](#community-support)
 - [Freenet Apps](#freenet-apps)
 - [Docs & Links](#docs-and-links)
 - [What's Next?](#whats-next)
@@ -54,7 +54,6 @@ _Background_
 - [Current Releases](https://github.com/freenet/freenet-core/releases)
 - [Freenet.org Site](https://github.com/freenet/web)
 - [Telemetry Dashboard](https://github.com/freenet/freenet-telemetry-dashboard)
-- [Discussions](https://github.com/freenet/freenet-core/discussions)
 
 
 --------------------
@@ -70,8 +69,9 @@ FUTO is a new organization founded to develop technology and share knowledge tha
 
 --------------------
 
-### Community Sites
+### Community Support
 
+- Github Discussions - [github.com)](https://github.com/freenet/freenet-core/discussions)
 - Freenet Support on Martix -  [matrix.org](https://app.element.io/?updated=1.11.50#/room/#freenet-locutus:matrix.org) 
 - X/Twitter Announcments & News -  [https://x.com/FreenetOrg](https://x.com/FreenetOrg)
 - Reddit Freenet Community -  [https://www.reddit.com/r/Freenet/](https://www.reddit.com/r/Freenet/)
