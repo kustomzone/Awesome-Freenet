@@ -11,13 +11,13 @@
 Freenet is a P2P decentralized platform for apps, including communication, collaboration, and commerce without reliance on big tech.<br>
 Your computer becomes part of a global network where apps are unstoppable, interoperable, and built on open protocols.<br>
 
-<br>The project aims to change the way web apps work by improving privacy, censorship resistance, and content decentralization.
-
 --------------------
 
 ### Contents
 
 - [About Freenet](#about-freenet)
+- [Freenet Repos](#freenet-source-repos)
+- [Intro Media](#intro-media)
 - [Community Sites](#community-sites)
 - [Freenet Apps](#freenet-apps)
 - [Docs & Links](#docs-and-links)
@@ -31,11 +31,43 @@ Your computer becomes part of a global network where apps are unstoppable, inter
 
 ### About Freenet
 
-Awesome decentralized Freenet apps and links.
+The Freenet project aims to change the way web apps work by improving privacy, censorship resistance, and content decentralization.<br><br>
 
-- Releases:  https://github.com/freenet/freenet-core/releases
+Originally released in 1999 as a Java platform (now renamed [Hyphanet](https://www.hyphanet.org/index.html)) Freenet has been completely re-written<br>
+in Rust from the ground up with lessons learned from decades of active use, and since 2025 has subsequently incorporated Agenic code and concepts<br>
+into it's more rapid development cycle, finally reaching Alpha network status as of Feburary 2026 after an extensive period of debugging and testing.
 
-- Discussion:  https://github.com/freenet/freenet-core/discussions/995
+_Background_
+
+- [Hyphanet](https://en.wikipedia.org/wiki/Hyphanet)
+- [Lead Developer](https://en.wikipedia.org/wiki/Ian_Clarke_(computer_scientist))
+
+
+--------------------
+
+### Freenet Source Repos
+
+- [Freenet Core](https://github.com/freenet/freenet-core)
+- [River](https://github.com/freenet/river)
+- [Freenet Stdlib](https://github.com/freenet/freenet-stdlib)
+- [Agent Skills](https://github.com/freenet/freenet-agent-skills)
+
+- [Current Releases](https://github.com/freenet/freenet-core/releases)
+
+- [Freenet.org Site](https://github.com/freenet/web)
+- [Telemetry Dashboard](https://github.com/freenet/freenet-telemetry-dashboard)
+- [Discussions](https://github.com/freenet/freenet-core/discussions)
+
+
+--------------------
+
+### Intro Media
+
+FUTO is a new organization founded to develop technology and share knowledge that gives control of computers back to the people.
+
+- 2026 - [Freenet Lives! And You Can Use It!](https://www.youtube.com/watch?v=3SxNBz1VTE0)
+- 2025 - [Ian Clarke Breaks Down His Vision for a Decentralized Internet](https://www.youtube.com/watch?v=enTAromEeHo)
+- 2024 - [Ian Clarke Explains the Next Generation of Freenet](https://www.youtube.com/watch?v=yBtyNIqZios)
 
 
 --------------------
@@ -43,11 +75,9 @@ Awesome decentralized Freenet apps and links.
 ### Community Sites
 
 - Freenet Support on Martix -  [matrix.org](https://app.element.io/?updated=1.11.50#/room/#freenet-locutus:matrix.org) 
-
 - X/Twitter Announcments & News -  [https://x.com/FreenetOrg](https://x.com/FreenetOrg)
-
 - Reddit Freenet Community -  [https://www.reddit.com/r/Freenet/](https://www.reddit.com/r/Freenet/)
-
+- Show HackerNews - [Freenet alpha, a drop-in decentralized replacement for the web](https://news.ycombinator.com/item?id=46547216)
 
 --------------------
 
@@ -58,20 +88,19 @@ Freenet apps run in your browser and look like normal web apps.
 > app links load when a Freenet node is running
 
 - <b>River</b> -  A decentralized group chat built on Freenet. No servers, no signups—just encrypted conversations that work even if we disappear tomorrow.
-
   -- http://127.0.0.1:7509/v1/contract/web/raAqMhMG7KUpXBU2SxgCQ3Vh4PYjttxdSWd9ftV7RLv/
 
 - <b>Pastebin</b> -  Unstoppable text sharing on a decentralized network. No accounts. No tracking. No takedowns. Not even we can remove your paste.
-
   -- http://127.0.0.1:7509/v1/contract/web/BMtXCFamJxGLpNr8FYEGDuhP5MbtoY8ZXS5Zqpxf4sMV/#/
 
+- <b>Microblogging</b> - Work in Progress [MicroBlog](https://github.com/freenet/freenet-core/tree/main/apps/freenet-microblogging)
+- <b>Email App</b> - Work in Progress [Email App](https://github.com/freenet/freenet-core/tree/main/apps/freenet-email-app)
 
 --------------------
 
 ### Docs and Links
 
 Homepage:  https://freenet.org/
-
 Quickstart:  https://freenet.org/quickstart/
 
 
@@ -90,10 +119,10 @@ Quickstart:  https://freenet.org/quickstart/
 
 ### Definitions
 
-- Nodes
-- Gateways
-- Contracts
-- Delegates
+- Nodes:
+- Gateways:
+- Contracts:
+- Delegates:
 - Ghost Key:   A cryptographic mechanism used by Freenet.org to enable anonymous, verifiable donations, establishing a reputation system that fights spam and bots without compromising user privacy.
 
 
@@ -104,6 +133,7 @@ Quickstart:  https://freenet.org/quickstart/
 ...
 
 --------------------
+
 
 ### Related Awesomeness
 
