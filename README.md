@@ -111,7 +111,7 @@ Quickstart:  https://freenet.org/quickstart/
 - [Awesome Decentralized](https://github.com/steve-vincent/awesome-decentralized) | [![github](/img/github.svg) ](https://github.com/steve-vincent/awesome-decentralized) - A curated list of decentralized, P2P, and distributed platforms and applications.
 - [Awesome Peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer) | [![github](/img/github.svg) ](https://github.com/kgryte/awesome-peer-to-peer) - A curated list of peer-to-peer resources.
 - [Awesome IPFS](https://awesome.ipfs.io/) | [![github](/img/github.svg) ](https://github.com/ipfs/awesome-ipfs) - Useful resources for using IPFS.
-- [Awesome Solid](https://github.com/kustomzone/awesome-solid) |  [![github](/img/github.svg) ](https://github.com/kustomzone/awesome-solid) - Useful resources for using IPFS.
+- [Awesome Solid](https://github.com/kustomzone/awesome-solid) |  [![github](/img/github.svg) ](https://github.com/kustomzone/awesome-solid) - Useful resources for using Solid.
 
 
 --------------------
