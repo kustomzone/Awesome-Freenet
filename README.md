@@ -88,6 +88,7 @@ Freenet apps run in your browser and look like normal web apps.
 
 - <b>River</b> -  Decentralized group chat built on Freenet without centralized servers. - http://127.0.0.1:7509/v1/contract/web/raAqMhMG7KUpXBU2SxgCQ3Vh4PYjttxdSWd9ftV7RLv/
 - <b>Pastebin</b> -  Text sharing on a decentralized network. No accounts, tracking, or takedowns. - http://127.0.0.1:7509/v1/contract/web/BMtXCFamJxGLpNr8FYEGDuhP5MbtoY8ZXS5Zqpxf4sMV/#/
+- <b>Freelist</b> -  Decentralized directory for Freenet apps & contracts - http://127.0.0.1:7509/v1/contract/web/GJiquZue2FvKtc9qUG9D4AmWe1j6TZAGkeZwvLVmCrDf/
 
 _works in progress_
 
