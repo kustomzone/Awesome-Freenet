@@ -1,15 +1,14 @@
 
-
-> As of Feburary 2026, Freenet is under active development and may be unstable. During alpha testing:
-- **Telemetry:** Your peer will report diagnostic data to our servers for debugging purposes, including peer activity and general system info (e.g., your OS).
-- **Auto-updates:** Your peer may automatically update when new versions become available.
-
---------------------
-
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 Freenet is a P2P decentralized platform for apps, including communication, collaboration, and commerce without reliance on big tech.<br>
 Your computer becomes part of a global network where apps are unstoppable, interoperable, and built on open protocols.<br>
+
+> Note:  As of Feburary 2026, Freenet is still under active development and may continue to be unstable during testing.
+
+> Alpha testing:
+- **Telemetry:** Your peer will report diagnostic data to our servers for debugging purposes, including peer activity and general system info (e.g., your OS).
+- **Auto-updates:** Your peer may automatically update when new versions become available.
 
 --------------------
 
@@ -34,8 +33,9 @@ Your computer becomes part of a global network where apps are unstoppable, inter
 The Freenet project aims to change the way web apps work by improving privacy, censorship resistance, and content decentralization.<br><br>
 
 Originally released in 1999 as a Java platform (now renamed [Hyphanet](https://www.hyphanet.org/index.html)) Freenet has been completely re-written<br>
-in Rust from the ground up with lessons learned from decades of active use, and since 2025 has subsequently incorporated Agenic code and concepts<br>
-into it's more rapid development cycle, finally reaching Alpha network status as of Feburary 2026 after an extensive period of debugging and testing.
+in Rust from the ground up with lessons learned from decades of active use, and since 2025 has incorporated<br>
+Agenic code and concepts into it's more rapid development cycle, finally reaching Alpha network status as of<br>
+Feburary 2026 after an extensive period of debugging and testing.<br>
 
 _Background_
 
@@ -51,9 +51,7 @@ _Background_
 - [River](https://github.com/freenet/river)
 - [Freenet Stdlib](https://github.com/freenet/freenet-stdlib)
 - [Agent Skills](https://github.com/freenet/freenet-agent-skills)
-
 - [Current Releases](https://github.com/freenet/freenet-core/releases)
-
 - [Freenet.org Site](https://github.com/freenet/web)
 - [Telemetry Dashboard](https://github.com/freenet/freenet-telemetry-dashboard)
 - [Discussions](https://github.com/freenet/freenet-core/discussions)
@@ -65,9 +63,9 @@ _Background_
 
 FUTO is a new organization founded to develop technology and share knowledge that gives control of computers back to the people.
 
-- 2026 - [Freenet Lives! And You Can Use It!](https://www.youtube.com/watch?v=3SxNBz1VTE0)
-- 2025 - [Ian Clarke Breaks Down His Vision for a Decentralized Internet](https://www.youtube.com/watch?v=enTAromEeHo)
 - 2024 - [Ian Clarke Explains the Next Generation of Freenet](https://www.youtube.com/watch?v=yBtyNIqZios)
+- 2025 - [Ian Clarke Breaks Down His Vision for a Decentralized Internet](https://www.youtube.com/watch?v=enTAromEeHo)
+- 2026 - [Freenet Lives! And You Can Use It!](https://www.youtube.com/watch?v=3SxNBz1VTE0)
 
 
 --------------------
@@ -79,22 +77,22 @@ FUTO is a new organization founded to develop technology and share knowledge tha
 - Reddit Freenet Community -  [https://www.reddit.com/r/Freenet/](https://www.reddit.com/r/Freenet/)
 - Show HackerNews - [Freenet alpha, a drop-in decentralized replacement for the web](https://news.ycombinator.com/item?id=46547216)
 
+
 --------------------
 
 ### Freenet Apps
 
 Freenet apps run in your browser and look like normal web apps.
 
-> app links load when a Freenet node is running
+> Note: app links load when a Freenet node is running
 
-- <b>River</b> -  A decentralized group chat built on Freenet. No servers, no signups—just encrypted conversations that work even if we disappear tomorrow.
-  -- http://127.0.0.1:7509/v1/contract/web/raAqMhMG7KUpXBU2SxgCQ3Vh4PYjttxdSWd9ftV7RLv/
+- <b>River</b> -  Decentralized group chat built on Freenet without centralized servers. - http://127.0.0.1:7509/v1/contract/web/raAqMhMG7KUpXBU2SxgCQ3Vh4PYjttxdSWd9ftV7RLv/
+- <b>Pastebin</b> -  Text sharing on a decentralized network. No accounts, tracking, or takedowns. - http://127.0.0.1:7509/v1/contract/web/BMtXCFamJxGLpNr8FYEGDuhP5MbtoY8ZXS5Zqpxf4sMV/#/
 
-- <b>Pastebin</b> -  Unstoppable text sharing on a decentralized network. No accounts. No tracking. No takedowns. Not even we can remove your paste.
-  -- http://127.0.0.1:7509/v1/contract/web/BMtXCFamJxGLpNr8FYEGDuhP5MbtoY8ZXS5Zqpxf4sMV/#/
+_works in progress_
 
-- <b>Microblogging</b> - Work in Progress [MicroBlog](https://github.com/freenet/freenet-core/tree/main/apps/freenet-microblogging)
-- <b>Email App</b> - Work in Progress [Email App](https://github.com/freenet/freenet-core/tree/main/apps/freenet-email-app)
+- <b>Microblogging</b> - [MicroBlog](https://github.com/freenet/freenet-core/tree/main/apps/freenet-microblogging)
+- <b>Email App</b> - [Email App](https://github.com/freenet/freenet-core/tree/main/apps/freenet-email-app)
 
 --------------------
 
