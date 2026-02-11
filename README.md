@@ -62,8 +62,10 @@ _Background_
 
 FUTO is a new organization founded to develop technology and share knowledge that gives control of computers back to the people.
 
-- 2024 - [Ian Clarke Explains the Next Generation of Freenet](https://www.youtube.com/watch?v=yBtyNIqZios)
-- 2025 - [Ian Clarke Breaks Down His Vision for a Decentralized Internet](https://www.youtube.com/watch?v=enTAromEeHo)
+- 2022 - [Ian Clarke Discusses Freenet (Locutus) with Louis Rossmann‬](https://www.youtube.com/watch?v=x9g018OYwb4)
+- 2023 - [Ian Clarke Explains the Next Generation of Freenet](https://www.youtube.com/watch?v=yBtyNIqZios)
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- [Ian Clarke Discusses His New Version of a P2P Internet](https://www.youtube.com/watch?v=uvwmTtFTzh0)
+- 2024 - [Ian Clarke Breaks Down His Vision for a Decentralized Internet](https://www.youtube.com/watch?v=enTAromEeHo)
 - 2026 - [Freenet Lives! And You Can Use It!](https://www.youtube.com/watch?v=3SxNBz1VTE0)
 
 
