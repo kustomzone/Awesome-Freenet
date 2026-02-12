@@ -92,6 +92,7 @@ Freenet apps run in your browser and look like normal web apps.
 - <b>Pastebin</b> -  Text sharing on a decentralized network. No accounts, tracking, or takedowns. - http://127.0.0.1:7509/v1/contract/web/BMtXCFamJxGLpNr8FYEGDuhP5MbtoY8ZXS5Zqpxf4sMV/#/
 - <b>Freelist</b> -  Decentralized directory for Freenet apps & contracts - http://127.0.0.1:7509/v1/contract/web/GJiquZue2FvKtc9qUG9D4AmWe1j6TZAGkeZwvLVmCrDf/
 - <b>Freenet Search Engine</b> - [![github](/img/github.svg)](https://github.com/TDiffff/freenet-search-engine) Decentralized search engine for discovering web applications on the Freenet network
+- <b>Pizza Order Manager</b> - [![github](/img/github.svg)](https://github.com/realraum/freeenet-pizza) Yet another pizza order manager, this time on freenet
 
 _works in progress_
 
