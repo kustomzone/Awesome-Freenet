@@ -122,11 +122,11 @@ _works in progress_
 
 ### Definitions
 
-- Nodes:  Freenet's core crate, typically running on devices as a background service, that connects to the decentralized network, stores shared data, and communicates with other nodes over a custom Freenet Transport Protocol (FrTP).
-- Gateways:  
-- Contracts:  Subscribeable site or web application containers passed between connected devices, providing shared, synced, rule-based states on every node that hosts them.
-- Delegates:  Local agents that store encrypted secrets (private keys, identity) for signing requests internally seperate from the application layer, but capable of returning verified signatures in orfer to complete any needed peer transactions.
-- Ghost Key:  A cryptographic mechanism initially provided by Freenet.org to enable small verified anonymous donations to bootstrap an initial reputation system  spam and bots without compromising user privacy.
+- **Nodes**:  Freenet's core crate, typically running on devices as a background service, that connects to the decentralized network, stores shared data, and communicates with other nodes over a custom Freenet Transport Protocol (FrTP).
+- **Gateways**:  
+- **Contracts**:  Subscribeable site or web application containers passed between connected devices, providing shared, synced, rule-based states on every node that hosts them.
+- **Delegates**:  Local agents that store encrypted secrets (private keys, identity) for signing requests internally seperate from the application layer, but capable of returning verified signatures in orfer to complete any needed peer transactions.
+- **Ghost Key**:  A cryptographic mechanism (initially provided by Freenet.org) to enable small verified anonymous donations to bootstrap a reputation system for limiting spam, ddos, or bots, but without compromising user privacy.
 
 
 --------------------
