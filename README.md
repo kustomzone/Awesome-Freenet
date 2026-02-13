@@ -6,9 +6,9 @@ Your computer becomes part of a global network where apps are unstoppable, inter
 
 > Note:  As of Feburary 2026, Freenet is still under active development and may continue to be unstable during testing.
 
-> Alpha testing:
-- **Telemetry:** Your peer will report diagnostic data to our servers for debugging purposes, including peer activity and general system info (e.g., your OS).
-- **Auto-updates:** Your peer may automatically update when new versions become available.
+> Debugging during Alpha testing:
+- **Telemetry:**  Peers will report diagnostic data to our servers for debugging purposes, including peer activity and basic system info such as OS.
+- **Release syncing:**  As new versions are released, early gateways and client nodes will automatically update to keep version compatibility.
 
 --------------------
 
@@ -60,7 +60,7 @@ FUTO is a new organization founded to develop technology and share knowledge tha
 
 ### Freenet Source Repos
 
-- [Freenet Core](https://github.com/freenet/freenet-core) - Current [Releases](https://github.com/freenet/freenet-core/releases)
+- [Freenet Core](https://github.com/freenet/freenet-core) - (See [Releases](https://github.com/freenet/freenet-core/releases))
 - [River](https://github.com/freenet/river)
 - [Freenet Stdlib](https://github.com/freenet/freenet-stdlib)
 - [Agent Skills](https://github.com/freenet/freenet-agent-skills)
@@ -122,11 +122,11 @@ _works in progress_
 
 ### Definitions
 
-- Nodes:
-- Gateways:
-- Contracts:
-- Delegates:
-- Ghost Key:   A cryptographic mechanism used by Freenet.org to enable anonymous, verifiable donations, establishing a reputation system that fights spam and bots without compromising user privacy.
+- Nodes:  Freenet's core crate, typically running on devices as a background service, that connects to the decentralized network, stores shared data, and communicates with other nodes over a custom Freenet Transport Protocol (FrTP).
+- Gateways:  
+- Contracts:  Subscribeable site or web application containers passed between connected devices, providing shared, synced, rule-based states on every node that hosts them.
+- Delegates:  Local agents that store encrypted secrets (private keys, identity) for signing requests internally seperate from the application layer, but capable of returning verified signatures in orfer to complete any needed peer transactions.
+- Ghost Key:  A cryptographic mechanism initially provided by Freenet.org to enable small verified anonymous donations to bootstrap an initial reputation system  spam and bots without compromising user privacy.
 
 
 --------------------
