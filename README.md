@@ -7,7 +7,7 @@ Your computer becomes part of a global network where apps are unstoppable, inter
 > Note:  As of Feburary 2026, Freenet is still under active development and may continue to be unstable during testing.
 
 > Debugging during Alpha testing:
-- **Telemetry:**  Peers will report diagnostic data to our servers for debugging purposes, including peer activity and basic system info such as OS.
+- **Telemetry:**  Peers report diagnostic data to dev servers for debugging purposes, including peer activity & basic system info such as OS.
 - **Release syncing:**  As new versions are released, early gateways and client nodes will automatically update to keep version compatibility.
 
 --------------------
@@ -83,21 +83,34 @@ FUTO is a new organization founded to develop technology and share knowledge tha
 
 ### Freenet Apps
 
-Freenet apps run in your browser and look like normal web apps.
+Freenet apps run in your browser and look like normal web apps or sites.
 
-> Note: app links load when a Freenet node is running
+> Note: app links load when a Freenet node is running 
+
+<br>
+
+_apps / sites_
 
 - <b>River</b> -  Decentralized group chat built on Freenet without centralized servers. - http://127.0.0.1:7509/v1/contract/web/raAqMhMG7KUpXBU2SxgCQ3Vh4PYjttxdSWd9ftV7RLv/
-- <b>Pastebin</b> -  Text sharing on a decentralized network. No accounts, tracking, or takedowns. - http://127.0.0.1:7509/v1/contract/web/BMtXCFamJxGLpNr8FYEGDuhP5MbtoY8ZXS5Zqpxf4sMV/#/
-- <b>Freelist</b> -  Decentralized directory for Freenet apps & contracts - http://127.0.0.1:7509/v1/contract/web/GJiquZue2FvKtc9qUG9D4AmWe1j6TZAGkeZwvLVmCrDf/
+- <b>Pastebin</b> -  Text sharing on a decentralized network. No accounts, tracking, or takedowns. - http://127.0.0.1:7509/v1/contract/web/7fT9i1Ye9ZSA5GvetRBXDnKCraqut5PPn2B6ovaMwwL3/#/
 - <b>Freenet Search Engine</b> - [![github](/img/github.svg)](https://github.com/TDiffff/freenet-search-engine) Decentralized search engine for discovering web apps on Freenet's network - http://127.0.0.1:7509/v1/contract/web/FinderTZGHAY8DWSeQPRMN9K3p884WsLTUCjjH4QSZqH/
-- <b>Pizza Order Manager</b> - [![github](/img/github.svg)](https://github.com/realraum/freenet-pizza) Yet another pizza order manager, this time on freenet
-- <b>Promethean Forge room</b> - [![github](/img/github.svg)](https://github.com/prometheanforgesynergies/freenet-forge-room) A sovereign space that defines shared state for the Promethean Forge
+
+_tools_
+
+- <b>Create Freenet Vanity IDs</b> - [![github](/img/github.svg)](https://github.com/TDiffff/freenet-vanity-id) Generate vanity Freenet contract IDs by grinding a nonce appended to contract parameters.
 
 _works in progress_
 
-- <b>Microblogging</b> - [MicroBlog](https://github.com/freenet/freenet-core/tree/main/apps/freenet-microblogging)
-- <b>Email App</b> - [Email App](https://github.com/freenet/freenet-core/tree/main/apps/freenet-email-app)
+- <b>Pizza Order Manager</b> - [![github](/img/github.svg)](https://github.com/realraum/freenet-pizza) Yet another pizza order manager, this time on freenet
+- <b>Promethean Forge room</b> - [![github](/img/github.svg)](https://github.com/prometheanforgesynergies/freenet-forge-room) A sovereign space that defines shared state for the Promethean Forge
+- <b>Freenet Web</b> - [![github](/img/github.svg)](https://github.com/Sam-Max/Freenet-web) Deploy secure, signature-gated static websites on the Freenet network
+- <b>Microblogging</b> - [MicroBlog](https://github.com/freenet/freenet-core/tree/main/apps/freenet-microblogging) Example personal blog
+- <b>Email App</b> - [Email App](https://github.com/freenet/freenet-core/tree/main/apps/freenet-email-app) Example email app
+
+_offline (not updating)_
+
+- <b>Freelist</b> -  Decentralized directory for Freenet apps & contracts - (offline, no repo) http://127.0.0.1:7509/v1/contract/web/GJiquZue2FvKtc9qUG9D4AmWe1j6TZAGkeZwvLVmCrDf/
+
 
 --------------------
 
