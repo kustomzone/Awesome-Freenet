@@ -91,7 +91,7 @@ Freenet apps run in your browser and look like normal web apps.
 - <b>Pastebin</b> -  Text sharing on a decentralized network. No accounts, tracking, or takedowns. - http://127.0.0.1:7509/v1/contract/web/BMtXCFamJxGLpNr8FYEGDuhP5MbtoY8ZXS5Zqpxf4sMV/#/
 - <b>Freelist</b> -  Decentralized directory for Freenet apps & contracts - http://127.0.0.1:7509/v1/contract/web/GJiquZue2FvKtc9qUG9D4AmWe1j6TZAGkeZwvLVmCrDf/
 - <b>Freenet Search Engine</b> - [![github](/img/github.svg)](https://github.com/TDiffff/freenet-search-engine) Decentralized search engine for discovering web apps on Freenet's network - http://127.0.0.1:7509/v1/contract/web/FinderTZGHAY8DWSeQPRMN9K3p884WsLTUCjjH4QSZqH/
-- <b>Pizza Order Manager</b> - [![github](/img/github.svg)](https://github.com/realraum/freeenet-pizza) Yet another pizza order manager, this time on freenet
+- <b>Pizza Order Manager</b> - [![github](/img/github.svg)](https://github.com/realraum/freenet-pizza) Yet another pizza order manager, this time on freenet
 - <b>Promethean Forge room</b> - [![github](/img/github.svg)](https://github.com/prometheanforgesynergies/freenet-forge-room) A sovereign space that defines shared state for the Promethean Forge
 
 _works in progress_
@@ -125,7 +125,7 @@ _works in progress_
 - **Nodes**:  Freenet's core crate, typically running on devices as a background service, that connects to the decentralized network, stores shared data, and communicates with other nodes over a custom Freenet Transport Protocol (FrTP).
 - **Gateways**:  
 - **Contracts**:  Subscribeable site or web application containers passed between connected devices, providing shared, synced, rule-based states on every node that hosts them.
-- **Delegates**:  Local agents that store encrypted secrets (private keys, identity) for signing requests internally seperate from the application layer, but capable of returning verified signatures in orfer to complete any needed peer transactions.
+- **Delegates**:  Local agents that store encrypted secrets (private keys, identity) for signing requests internally seperate from the application layer, but capable of returning verified signatures in order to complete any needed peer transactions.
 - **Ghost Key**:  A cryptographic mechanism (initially provided by Freenet.org) to enable small verified anonymous donations to bootstrap a reputation system for limiting spam, ddos, or bots, but without compromising user privacy.
 
 
